@@ -12,11 +12,12 @@ export default function Footer({ navigate }: FooterProps) {
       <div className="container max-w-6xl mx-auto px-4">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-blue to-brand-violet flex items-center justify-center">
-                <Icon name="Building2" size={16} className="text-white" />
-              </div>
-              <span className="font-heading font-black text-white">ТСЖ «Наш Дом»</span>
+            <div className="mb-4">
+              <img
+                src="https://cdn.poehali.dev/files/69e3d6e0-d322-4124-bf19-706f7c9fd255.jpg"
+                alt="ТСЖ Школьное"
+                className="h-10 w-auto object-contain brightness-0 invert"
+              />
             </div>
             <p className="text-sm leading-relaxed">Профессиональное управление жилым домом с 2010 года</p>
           </div>

@@ -13,14 +13,12 @@ export default function Navbar({ active, menuOpen, setMenuOpen, navigate }: Navb
   return (
     <header className="sticky top-0 z-50 glass shadow-sm">
       <div className="container max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-        <button onClick={() => navigate("home")} className="flex items-center gap-2 group">
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-brand-blue to-brand-violet flex items-center justify-center shadow-md">
-            <Icon name="Building2" size={18} className="text-white" />
-          </div>
-          <span className="font-heading font-800 text-lg leading-none">
-            <span className="gradient-text font-black">ТСЖ</span>
-            <span className="text-foreground ml-1 font-bold">«Наш Дом»</span>
-          </span>
+        <button onClick={() => navigate("home")} className="flex items-center group">
+          <img
+            src="https://cdn.poehali.dev/files/69e3d6e0-d322-4124-bf19-706f7c9fd255.jpg"
+            alt="ТСЖ Школьное"
+            className="h-10 w-auto object-contain"
+          />
         </button>
 
         {/* Desktop nav */}
