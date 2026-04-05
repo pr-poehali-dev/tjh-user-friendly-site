@@ -47,7 +47,7 @@ export default function Index() {
             </div>
             <span className="font-heading font-800 text-lg leading-none">
               <span className="gradient-text font-black">ТСЖ</span>
-              <span className="text-foreground ml-1 font-bold">«Наш Дом»</span>
+              <span className="text-foreground ml-1 font-bold">«Школьное»</span>
             </span>
           </button>
 

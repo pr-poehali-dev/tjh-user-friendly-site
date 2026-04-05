@@ -685,7 +685,7 @@ export default function MainSections({
                 {
                   category: "Устав и регламенты", icon: "BookOpen",
                   docs: [
-                    { name: "Устав ТСЖ «Наш Дом»", size: "1.2 МБ", date: "01.01.2024", type: "PDF" },
+                    { name: "Устав ТСЖ «Школьное»", size: "1.2 МБ", date: "01.01.2024", type: "PDF" },
                     { name: "Правила внутреннего распорядка", size: "340 КБ", date: "15.03.2024", type: "PDF" },
                     { name: "Договор на управление МКД", size: "890 КБ", date: "01.01.2025", type: "PDF" },
                   ],
